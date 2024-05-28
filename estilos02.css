@@ -1,0 +1,143 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: century gothic;
+	color: rgb(212, 203, 203);
+	text-decoration: none;
+	text-align: center;
+	background-color: #000000;
+  background-image: url(Fondo\ Verde.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 0;
+   margin: 0;
+}
+.titulo {
+	padding: 40px;
+}
+
+h1{
+           color: #F5F3F1  ;
+           border: 5px;
+           border-color: #33f30d9a  ;
+           border-style: double;
+           border-radius: 10px 30px;
+           box-shadow: 15px 10px 25px #0df320;
+           transition: background-color 5s, width 5s, height 5s, transform 5s ;
+        }
+
+        h1:hover{
+            background-color: rgb(19, 112, 119);  
+            /*width 200px:;
+            height 200px;*/
+            transform:  translate3d(10px); 
+
+
+        }
+
+
+nav ul {
+	width: 80%;
+	margin: auto;
+	border-radius: 10px;
+	list-style-type: none;
+	background-color: #cbcccc00;
+	text-decoration: none;
+	transition: background-color 10s, width 9s, height 9s, transform 9s ;
+    transition: color  7s, width 7s, height 7s, transform 7s ;
+}
+nav li {
+	display: inline-flex;
+}
+nav a {
+	color: antiquewhite;
+	padding: 20px;
+	width: 150px;
+	text-decoration: none;
+	transition: background-color 10s, width 9s, height 9s, transform 9s ;
+    transition: color  7s, width 7s, height 7s, transform 7s ;
+}
+
+nav a:hover{
+	text-decoration: none;
+  color: rgb(65, 248, 9);
+   /*width: 200px;
+   height: 200px;*/
+  transform:translate3d(10px,  15px, 15px);
+  transform:translate(10px,  15px,  15px);
+}
+
+nav ul a:hover {
+	background-color: rgba(37, 180, 185, 0.384);
+}
+
+.contenido {
+	display: flex;
+	width: 80%;
+	margin: auto;
+	margin-top: 50px;
+}
+.contenido .articulo {
+	width: 70%;
+	margin: auto;
+}
+.contenido .articulo div {
+	color: #F5F3F1;
+	border: 5px;
+    border-color: #0df333  ;
+    border-style: double;
+    border-radius: 10px 30px;
+    box-shadow: 15px 10px 15px #0df36d;
+	width: 90%;
+	padding: 20px;
+	background-color: #000000;
+	border-radius: 15px;
+	margin-bottom: 15px;
+}
+.contenido .articulo img {
+	width: 200px;
+	border-radius: 15px;
+}
+.secundario {
+	width: 30%;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #000000;
+    padding: 20px;
+    float: left;
+    border-radius: 10px 10px 10px;
+    border-color: #3bf30d  ;
+    border-style: double;
+    border-radius: 10px 30px;
+    box-shadow: 15px 10px 15px #0df32c;
+	width: 70%;
+	padding: 20px;
+	border-radius: 15px;
+	margin-bottom: 15px;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .sidebar a:hover {
+    text-decoration: underline;
+  }
+
+  .sidebar img{
+    width: 400px;
+	border-radius: 15px;
+  }
